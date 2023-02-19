@@ -1,0 +1,301 @@
+:root {
+    --blue: #49bfff;
+    --white: #fff;
+    --gray: #333;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+}
+
+/* header */
+
+header{
+    background-color: var(--blue);
+    
+}
+
+header nav a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+header nav .logo{
+    margin-right: 30rem;
+    font-size: xx-large;
+}
+
+header nav .active{
+    color: var(--gray);
+}
+
+header nav .red{
+    background-color: red;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+#carouselExampleDark a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: large;
+    margin-right: 2rem;
+    padding: 0.5rem 1.25rem;
+    background-color: var(--blue);
+    
+}
+
+#carouselExampleDark h5{
+    color: var(--white);
+    text-align: start;
+   
+}
+
+#carouselExampleDark p{
+    color: var(--white);
+    text-align: start;
+    
+}
+
+.carousel-caption{
+    margin-bottom: 10rem;
+}
+
+.carousel-item img{
+    height: 100vh;
+}
+
+/*  destination*/
+
+.destination{
+    background-color: rgb(249, 248, 248);
+}
+
+.destination .mapa{
+    display: flex;
+    padding: 3rem 0;
+}
+
+.destination .mapa img{
+    width: 100%;
+}
+
+.destination .mapa .tekst{
+    flex: 0 0 60%;
+    padding: 2rem 2rem 0 0;
+
+}
+
+.destination .mapa .tekst h2{
+    text-transform: capitalize;
+}
+
+.destination .smile{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 2rem;
+
+}
+
+.destination .smile i{
+    color: var(--blue);
+    font-size: x-large;
+    padding-bottom: 1rem;
+}
+
+.destination .smile article{
+    text-align: center;
+}
+
+/* plan */
+
+.plan{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.plan h2{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+}
+
+.plan .plavo{
+    display: flex;
+}
+
+.plan .plavo article{
+    flex: 0 0 32%;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.plan .plavo i{
+    font-size: xx-large;
+    padding: 1rem;
+    background-color: var(--white);
+    color: var(--blue);
+    border-radius: 50%;
+}
+
+/* packages */
+
+.packages .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+
+.packages .container article{
+    flex: 0 0 23%;
+}
+
+.packages .container img{
+    width: 100%;
+}
+
+.packages h2{
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+.packages .container div{
+    display: flex;
+}
+
+.packages .container i{
+    color: var(--blue);
+    margin-right: 1rem;
+    font-size: large;
+    padding-top: 0.3rem;
+}
+
+/* .packages .container .more{
+    position: relative;
+} */
+
+.packages .container .dolari{
+    color: var(--white);
+    background-color: var(--blue);
+    display: inline;
+    padding: 0.5rem;
+    /* position: absolute;
+    bottom: 20%;
+    right: 20%; */
+}
+
+.packages a{
+    text-decoration: none;
+    color: var(--white);
+    background-color: red;
+    padding: 1rem 1.5rem;
+    font-size: large;
+    margin-left: 42rem;
+    margin-bottom: 3rem;
+}
+
+/* fix */
+
+.fiksnaPozadina{
+    margin-top: 3rem;
+    height: 70vh;
+    background-image: url(img/beach-blue-sky-boat-88212.jpg);
+    background-attachment: fixed;
+    background-color: var(--gray);
+    opacity: 0.9;
+}
+
+.fiksnaPozadina .container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.fiksnaPozadina .container h2{
+    color: var(--white);
+}
+
+.fiksnaPozadina .container p{
+    color: var(--white);
+}
+
+.fiksnaPozadina .container a{
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1rem solid --white;
+}
+
+/* popular */
+
+.popular .container h2{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.popular .container p{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.popular .container .zvezdice{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.popular .container .zvezdice img{
+    width: 100%;
+}
+
+.popular .container .zvezdice article{
+    flex: 0 0 23%;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 3rem 0;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container article{
+    flex: 0 0 23%;
+}
+
+footer input{
+    background-color: black;
+    border: none;
+    padding: 0.25rem 0.5rem;
+}
+
+footer i{
+    margin-right: -25px;
+}
+
+.poslednje{
+    background-color: black;
+    color: var(--white);
+    padding: 2rem 0;
+    text-align: center;
+}
